@@ -1,8 +1,10 @@
 import React from 'react';
+import Intersection from '../../atoms/Intersection';
 
 const Resume = () => {
     return (
        <div className="resume-container">
+           <Intersection text={``} />
             <ul className="resume-tech-and-tools">
                 <div className="resume-section-title">Tech and tools</div>
                 <li>Python, Python-Django, Flask

@@ -10,5 +10,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px 0;
+    padding: 20px;
+    background-color: gold;
+    font-weight: bold;
+}
+
+.projects-project--description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 30px 25px 50px;
+    background-color: gold;
+    text-align: center;
+}
+
+.projects-project--link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
 }

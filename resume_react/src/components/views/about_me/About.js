@@ -1,10 +1,13 @@
 import React from 'react';
 import Image from '../../atoms/Image';
+import Intersection from '../../atoms/Intersection';
 
 
 const About = () => {
     return (
-       <div className="about-container">
+        <>
+        <Intersection text={`About me`} />
+       <div className="about-container">           
            <Image />
            <div className="about-text-area">I am computer passionate looking to enter 
            professional software development world. I enjoy finding defects in apps and making them fixed. I enjoy making apps. 
@@ -15,6 +18,7 @@ const About = () => {
            My hobbies are martial arts, video games and personal development.  
            </div>
        </div>
+       </>
     )
 }
 
