@@ -1,9 +1,12 @@
 .btn {
     // width: 100px;
-    // height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 50px;
     font-weight: bolder;
     font-size: 32px;
-    padding: 5%;
+    padding: 3%;
     margin-bottom: 3px;
     text-decoration: none;
     color: grey;
@@ -16,4 +19,19 @@
     -moz-border-radius: 2%;
     -ms-border-radius: 2%;
     -o-border-radius: 2%;
+    &:hover {
+        background-color: aquamarine;
+    }
+    &:focus {
+        background-color: aquamarine;
+    }
+}
+
+.projects-btn {
+    background-color: white;
+    width: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

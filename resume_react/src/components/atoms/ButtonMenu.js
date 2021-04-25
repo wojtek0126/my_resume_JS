@@ -1,8 +1,8 @@
 import React from 'react';
 
-const ButtonMenu = ({text}) => {
+const ButtonMenu = ({text, className, href}) => {
     return (
-            <a className="menu-btn btn" href="/#">{text}</a>            
+            <a className={className} href={href}>{text}</a>            
     )
 }
 

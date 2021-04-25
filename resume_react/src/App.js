@@ -1,10 +1,18 @@
 import './App.scss';
-import Header from './components/home/header/Header';
+import Footer from './components/main_view/Footer';
+
+import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import MainView from './components/main_view/MainView';
 
 function App() {
   return (
     <>
-      <Header />
+    <Router>
+      <Switch>
+        <Route path="/" component={MainView} /> 
+        <Route path="/" component={Footer} /> 
+      </Switch>  
+    </Router>     
     </>
   );
 }
