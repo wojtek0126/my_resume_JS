@@ -1,5 +1,11 @@
 import React from 'react';
 import Intersection from '../../atoms/Intersection';
+import { FaPython, FaHtml5, FaTrello, FaTools, FaGamepad, FaBug, FaMicrochip, FaGasPump, FaReact, FaJira, FaMicrosoft, FaSchool } from "react-icons/fa";
+import { SiDjango, SiJavascript, SiMicrosoftaccess, SiPostgresql } from "react-icons/si";
+import { MdLocalLaundryService, MdSchool } from "react-icons/md";
+import { IoMdFootball } from "react-icons/io";
+import { GiWhistle } from "react-icons/gi";
+
 
 const Resume = () => {
     return (
@@ -7,19 +13,19 @@ const Resume = () => {
            <Intersection text={``} />
             <ul className="resume-tech-and-tools">
                 <div className="resume-section-title">Tech and tools</div>
-                <li>Python, Python-Django, Flask
+                <li><FaPython className="python"/>Python, Python-Django, Flask
                 </li>
-                <li>JavaScript, Node.js, React.js
+                <li><SiJavascript className="js" />JavaScript, Node.js, React.js
                 </li>
-                <li>HTML, CSS, SASS, RWD
+                <li><FaHtml5 className="html"/>HTML, CSS, SASS, RWD
                 </li>
-                <li>MySQL, SQLite, postgreSQL
+                <li><SiPostgresql className="sql"/>MySQL, SQLite, postgreSQL
                 </li>
-                <li>Git, Trello, Jira, TestLink, SAP
+                <li><FaTrello className="trello"/>Git, Trello, Jira, TestLink, SAP
                 </li>
-                <li>PyCharm, WebStorm, Visual Studio, VSC
+                <li><FaTools className="tools"/>PyCharm, WebStorm, Visual Studio, VSC
                 </li>
-                <li>C#: UNITY engine
+                <li><FaGamepad className="game"/>C#: UNITY engine
                 </li>
             </ul>
             <ul className="resume-languages">
@@ -32,42 +38,42 @@ const Resume = () => {
             </ul>
             <ul className="resume-work-experience">
             <div className="resume-section-title">Work experience</div>
-                <li>01-12.2019 -Debug technician, module testing. My
+                <li><FaBug className="bug"/><FaMicrochip className="microchip"/>01-12.2019 -Debug technician, module testing. My
                     main role was finding defects and repairing
-                    hardware parts . DELL EMC Ovens, Cork.
+                    hardware parts. DELL EMC Ovens, Cork.
                     References: Brian Northridge(debug supervisor):
                     353 21 4281904
                 </li>
-                <li>09.2016 - 09.2017 - Dry cleaners general operative
+                <li><MdLocalLaundryService className="laundry"/>09.2016 - 09.2017 - Dry cleaners general operative
                     Westward Cleaners, Ballincollig, Ireland
                 </li>
-                <li>08.2008 - 09.2016 Retail assistant with supervisor
+                <li><FaGasPump className="gas"/>08.2008 - 09.2016 Retail assistant with supervisor
                     duties. Topaz Energy Ireland, various gas stations.
                     Cork, Ireland
                 </li>
             </ul>
             <ul className="resume-education">
             <div className="resume-section-title">Education</div>
-                <li>01.2021 - Finished Frontend JavaScript
+                <li><FaReact className="react"/><SiJavascript className="js"/>01.2021 - Finished Frontend JavaScript
                     React premium course,.Coders Lab,
                     Warsaw, Poland - remote
                 </li>
-                <li>02.2020 - ISTQB Manual tester course,
+                <li><FaBug className="bug"/><FaJira className="jira"/>02.2020 - ISTQB Manual tester course,
                     achieved level 1 ISTQB certificate.
                     Coders Lab, Warsaw, Poland - remote
                 </li>
-                <li>09.2018 - Finished Backend Python
+                <li><FaPython className="python"/><SiDjango className="django"/> 09.2018 - Finished Backend Python
                     bootcamp. Coders Lab, Warsaw, Poland
 
                 </li>
-                <li>10.2018 - Achieved ECDL license level 1,
+                <li><FaMicrosoft /><SiMicrosoftaccess /> 10.2018 - Achieved ECDL license level 1,
                     Solus, Cork, Ireland
                 </li>
-                <li>07.2014 - Finished Community Sports
+                <li><IoMdFootball /><GiWhistle />07.2014 - Finished Community Sports
                     Coaching Programme, Cork Sports
                     Partnership, Cork, Ireland
                 </li>
-                <li>06.2004 - Finished High School of
+                <li><FaSchool /><MdSchool />06.2004 - Finished High School of
                     Foreign Languages 'Avans' in Warsaw,
                     Poland
                 </li>

@@ -1,5 +1,6 @@
 import React from 'react';
 import About from '../views/about_me/About';
+import Contact from '../views/contact/Contact';
 import Projects from '../views/projects/Projects';
 import Resume from '../views/resume/Resume';
 import Footer from './Footer';
@@ -14,6 +15,7 @@ const MainView = () => {
             <About />
             <Resume />
             <Projects />
+            <Contact />
             <Footer />
         </>
     )

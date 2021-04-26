@@ -1,0 +1,83 @@
+.resume-container {
+    & li {
+        padding: 0 10px;
+        list-style: none;
+        line-height: 2.5em;
+    }
+}
+
+.resume-section-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+// icons
+.python {
+    color: gold;
+    margin-right: 2px;
+}
+.js {
+     color: gold;
+    margin-right: 2px;
+}
+.html {
+ color: gold;
+    margin-right: 2px;
+}
+.sql {
+ color: gold;
+    margin-right: 2px;
+}
+.trello {
+ color: gold;
+    margin-right: 2px;
+}
+.tools {
+ color: gold;
+    margin-right: 2px;
+}
+.game {
+ color: black;
+    margin-right: 2px;
+}
+.bug {
+ color: red;
+    margin-right: 2px;
+}
+.microchip {
+ color: silver;
+    margin-right: 2px;
+}
+.laundry {
+ color: blue;
+    margin-right: 2px;
+}
+.gas {
+ color: green;
+    margin-right: 2px;
+}
+.react {
+ color: lightblue;
+    margin-right: 2px;
+}
+.js {
+ color: gold;
+    margin-right: 2px;
+}
+.bug {
+ color: gold;
+ margin-right: 2px;
+}
+.jira {
+ color: gold;
+    margin-right: 2px;
+}
+.django {
+ color: gold;
+    margin-right: 2px;
+}
