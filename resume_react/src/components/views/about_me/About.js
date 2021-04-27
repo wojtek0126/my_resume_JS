@@ -9,13 +9,14 @@ const About = () => {
         <Intersection text={`About me`} />
        <div className="about-container">           
            <Image />
-           <div className="about-text-area">I am computer passionate looking to enter 
-           professional software development world. I enjoy finding defects in apps and making them fixed. I enjoy making apps. 
+           <div className="about-text-area">I am computer passionate, looking forward to enter 
+           professional software development world. I enjoy finding defects in apps and fixing them.
+           I enjoy making apps as well. 
            My programming journey started in 2018.
            I have ISTQB fundamental level certificate, 
            completed Python bootcamp, and remote JavaScript React course. 
            I have a year of experience working as QA debug technician with server components.
-           My hobbies are martial arts, video games and personal development.  
+           My hobbies are martial arts, video games and personal development. I like to learn and improve constantly. 
            </div>
        </div>
        </>

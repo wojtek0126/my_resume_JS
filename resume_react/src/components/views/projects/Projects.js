@@ -17,14 +17,12 @@ const Projects = () => {
                 </div>
                 <div className="projects-project--description">
                     This app is my portfolio project, made for JavaScript React course. This project is made with
-                    help of Trello board and was simulation of single two-week sprint. Currently I use it for learning purposes.
-                    It is also my training tool for manual testing, JS, React and Cypress.
-                    I like finding and fixing bugs and this app has plenty.
-                    use mobile first principle in early stage and it has to be remade with cleaner JS and mobile first approach.
-                    APIless demo version of this app is hosted with github.
+                    guidance of Trello board and was simulation of single two-week sprint. 
+                    Currently I use it to train manual testing, JS, React and Cypress.
+                    I like finding and fixing bugs and this app has plenty.                 
                 </div>
                 <div className="projects-project--link">
-                   <ButtonMenu text={`Link`} href={`/`} className={`projects-btn btn`}/>
+                   <ButtonMenu text={`Link`} href={`https://wojtek0126.github.io/Portfolio_react_app/`} className={`projects-btn btn`}/>
                 </div>
             </div>
         

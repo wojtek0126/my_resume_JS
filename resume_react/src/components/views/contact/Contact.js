@@ -9,7 +9,7 @@ const Contact = () => {
         <Intersection text={`Contact me`} />
        <div className="contact-container">           
            <Image />
-           <div className="contact-text-area">Full name: Wojciech Tomaszewski
+           <div className="contact-text-area">Wojciech Tomaszewski
            </div>
            <div className="contact-text-area">Current location: Warsaw, Poland
            </div>

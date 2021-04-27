@@ -2,7 +2,7 @@
     & li {
         padding: 0 10px;
         list-style: none;
-        line-height: 2.5em;
+        padding-bottom: 15px;
     }
 }
 
@@ -14,31 +14,37 @@
     font-weight: bold;
     padding: 10px;
     text-transform: uppercase;
+    background-color: antiquewhite;
 }
 
 // icons
+.bubble {
+    color: green;
+    margin-right: 2px;  
+}
 .python {
     color: gold;
     margin-right: 2px;
 }
 .js {
      color: gold;
+     background-color: black;
     margin-right: 2px;
 }
 .html {
- color: gold;
+ color: red;
     margin-right: 2px;
 }
 .sql {
- color: gold;
+ color: lightblue;
     margin-right: 2px;
 }
 .trello {
- color: gold;
+ color: blue;
     margin-right: 2px;
 }
 .tools {
- color: gold;
+ color: black;
     margin-right: 2px;
 }
 .game {
@@ -65,19 +71,43 @@
  color: lightblue;
     margin-right: 2px;
 }
-.js {
- color: gold;
-    margin-right: 2px;
-}
-.bug {
- color: gold;
- margin-right: 2px;
-}
 .jira {
- color: gold;
+ color: blue;
     margin-right: 2px;
 }
 .django {
- color: gold;
+ color: black;
+    margin-right: 2px;
+}
+.ms {
+    color: black;
+    margin-right: 2px; 
+}
+.access {
+    color: red;
+    margin-right: 2px;
+}
+.football {
+    color: black;
+    margin-right: 2px;
+}
+.whistle {
+    color: green;
+    margin-right: 2px;
+}
+.school {
+    color: green;
+    margin-right: 2px;
+}
+.school2 {
+    color: black;
+    margin-right: 2px;
+}
+.medal {
+    color: gold;
+    margin-right: 2px;
+}
+.win {
+    color: green;
     margin-right: 2px;
 }
