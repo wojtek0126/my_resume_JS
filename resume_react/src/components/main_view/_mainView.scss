@@ -1,7 +1,8 @@
 .nav-container {
     display: flex;
     flex-direction: column;   
-    background-color: black;    
+    background-color: black; 
+    background: url('/assets/images/steel.jpg');
     display: none; 
 }
 
@@ -25,7 +26,7 @@
     text-transform: uppercase;
 }
 
-.burger-container {
+.nav-header-container {
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
@@ -43,4 +44,20 @@
         padding-bottom: 20px;
 
     }
+}
+
+.header-plan {
+    color:blue;
+}
+.header-code {
+    color: red ;
+}
+.header-fix {
+    color: white ;
+}
+.header-deliver {
+    color: green;
+}
+.header-repeat {
+    color: gold;
 }
