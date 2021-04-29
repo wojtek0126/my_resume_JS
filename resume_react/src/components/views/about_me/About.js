@@ -10,8 +10,7 @@ const About = () => {
        <div className="about-container">           
            <Image />
            <div className="about-text-area">I am computer passionate, looking forward to enter 
-           professional software development world. I enjoy finding defects in apps and fixing them.
-           I enjoy making apps as well. 
+           professional software development world. I enjoy making apps. I enjoy finding defects in apps and fixing them.           
            My programming journey started in 2018.
            I have ISTQB fundamental level certificate, 
            completed Python bootcamp, and remote JavaScript React course. 

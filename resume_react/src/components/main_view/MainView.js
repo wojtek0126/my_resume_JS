@@ -10,7 +10,7 @@ import WelcomeScreen from './WelcomeScreen';
 
 const MainView = () => {
     return (
-        <>
+        <>            
             <Header />
             <Nav />
             <WelcomeScreen />
