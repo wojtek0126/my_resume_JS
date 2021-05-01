@@ -2,3 +2,10 @@
     padding: 30px 30px 50px 50px;
     background: url('/assets/images/background1.png');   
 }
+
+//fix for background images in desktop 0105211902
+@media (min-width: 1075px) {
+    .about-container {
+        background-size: 100%;    
+    }
+}

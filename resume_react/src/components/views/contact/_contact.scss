@@ -15,3 +15,11 @@
     justify-content: space-between;
     width: 20vw;
 }
+
+//fix for background images in desktop 0105211902
+@media (min-width: 1075px) {
+    .contact-container {
+        background-size: 100%;
+    }
+}
+

@@ -33,3 +33,10 @@
     padding: 5px;
     background-color: antiquewhite;
 }
+
+//fix for background images in desktop 0105211902
+@media (min-width: 1075px) {
+    .projects-project--description {
+        background-size: 100%;    
+    }
+}
