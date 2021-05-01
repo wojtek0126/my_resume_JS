@@ -6,7 +6,7 @@ import { FaLinkedin, FaFacebookSquare, FaGithubSquare } from "react-icons/fa";
 const Contact = () => {
     return (
         <>
-        <Intersection text={`Contact me`} />
+        <Intersection text={`Contact me`}/>
        <div className="contact-container">           
            <Image />
            <div className="contact-text-area">Wojciech Tomaszewski
