@@ -6,8 +6,8 @@ import { FaLinkedin, FaFacebookSquare, FaGithubSquare } from "react-icons/fa";
 const Contact = () => {
     return (
         <>
-        <Intersection text={`Contact me`} />
-       <div className="contact-container">           
+        <Intersection text={`Contact me`}/>
+       <div className="contact-container" id="contact-wrapper">           
            <Image />
            <div className="contact-text-area">Wojciech Tomaszewski
            </div>
@@ -19,13 +19,19 @@ const Contact = () => {
            </div>
            <div className="contact-link-icons">
                 <div className="contact-link-fb">
-                    <FaFacebookSquare />
+                    <a href="https://www.facebook.com/wojciech.tomaszewski.7/">
+                        <FaFacebookSquare />
+                    </a>                  
                 </div>
                 <div className="contact-link-linkedin">
-                    <FaLinkedin />
+                    <a href="https://www.linkedin.com/in/wojtomaszewski/">
+                        <FaLinkedin />
+                    </a>                  
                 </div>
                 <div className="contact-link-github">
-                    <FaGithubSquare />
+                    <a href="https://github.com/wojtek0126">
+                        <FaGithubSquare />
+                    </a>                 
                 </div>
            </div>
        </div>

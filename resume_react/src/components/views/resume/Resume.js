@@ -9,7 +9,7 @@ import { GiMedallist, GiWhistle } from "react-icons/gi";
 
 const Resume = () => {
     return (
-       <div className="resume-container">
+       <div className="resume-container" id="resume-wrapper">
            <Intersection text={`My resume`} />
            <div className="resume-section-title">Tech and tools</div>
             <ul className="resume-tech-and-tools">               
@@ -81,12 +81,11 @@ const Resume = () => {
                 <li><FaMedal className="medal"/>Martial arts - I am training various martial arts since 2004. I have experience competing in grappling, MMA, Muay
                     Thai and kickboxing. I am interested in HEMA - historical martial arts.
                 </li>
-                <li><FaGamepad className="game"/>Computer games - games hooked me since my childhood times when I first saw
-                    computer and consoles. Currently I am more interested in learning how to make them
+                <li><FaGamepad className="game"/>Computer games - games hooked me since my childhood years. Currently I am more interested in learning how to make them
                     than just playing them. 
                 </li>
                 <li><GiMedallist className="win"/>Personal development - I like to constantly become better in everything I do. 
-                Improving my mindset never gets boring.
+                Improving my mindset and skills never gets boring.
                 </li>
             </ul>          
        </div>

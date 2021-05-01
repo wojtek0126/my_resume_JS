@@ -6,7 +6,7 @@ import Intersection from '../../atoms/Intersection';
 
 const Projects = () => {
     return (
-        <div className="projects-container">
+        <div className="projects-container" id="project-wrapper">
            <Intersection text={`My projects`} />
             <div className="projects-project">
                 <div className="projects-project--title">
