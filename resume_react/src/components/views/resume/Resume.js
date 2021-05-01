@@ -9,7 +9,7 @@ import { GiMedallist, GiWhistle } from "react-icons/gi";
 
 const Resume = () => {
     return (
-       <div className="resume-container">
+       <div className="resume-container" id="resume-wrapper">
            <Intersection text={`My resume`} />
            <div className="resume-section-title">Tech and tools</div>
             <ul className="resume-tech-and-tools">               

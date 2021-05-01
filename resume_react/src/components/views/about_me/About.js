@@ -7,7 +7,7 @@ const About = () => {
     return (
         <>
         <Intersection text={`About me`} />
-       <div className="about-container">           
+       <div className="about-container" id="about-wrapper">           
            <Image />
            <div className="about-text-area">I am computer passionate, looking forward to enter 
            professional software development world. I enjoy making apps. I enjoy finding defects in apps and fixing them.           
